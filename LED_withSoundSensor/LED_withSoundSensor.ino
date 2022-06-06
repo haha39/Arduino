@@ -21,7 +21,7 @@ void loop() {
   Serial.println(sensorValue);       //在監控視窗顯示讀取的值
   
   int r, g, b;
-  if(digitalRead(BUTTON) == 0) {
+  if(sensorValue > 500) {
     // 由藍到紫
     for (r = 0; r < 256; r++) { 
       analogWrite(Red, r);
