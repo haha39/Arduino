@@ -1,2 +1,2 @@
 # arduino
- practice sound light
+ practice to control light and sound
